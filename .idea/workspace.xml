@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Camion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Passager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Planeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Siege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/TestAvion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Vehicule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/TestBanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/TestOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/CompteTaux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Debit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Facture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/Emprunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/Emprunt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/essai/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/essai/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entites/essai/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/essai/TestOperation.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP8 corrigé">
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/services/OperationServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,11 +170,20 @@
       <option name="project" value="LOCAL" />
       <updated>1728057035885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TP8 corrigé">
+      <option name="closed" value="true" />
+      <created>1728377234312</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728377234313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="TP8 corrigé" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP8 corrigé" />
   </component>
 </project>

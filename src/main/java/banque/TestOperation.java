@@ -3,6 +3,7 @@ package banque;
 import banque.entites.Credit;
 import banque.entites.Debit;
 import banque.entites.Operation;
+import banque.services.OperationServices;
 
 import java.text.DecimalFormat;
 
@@ -14,18 +15,8 @@ public class TestOperation {
         operations[2]=new Credit("03/10/2024", 178.6);
         operations[3]=new Debit("04/10/2024", 123.9);
 
-        double somme=0.0;
-        for (int i=0; i<operations.length; i++) {
-            System.out.println(operations[i]);
-            somme = operations[i].calculTotal(somme);
+        double somme = OperationServices.calculTotal(operations);
 
-//            if (operations[i].getType().equals("CREDIT")){
-//                somme += operations[i].getMontant();
-//            }
-//            else {
-//                somme -= operations[i].getMontant();
-//            }
-        }
         DecimalFormat formateur = new DecimalFormat("#.00");
         String sommeFormatee = formateur.format(somme);
         System.out.println("La somme est égale à :"+sommeFormatee);
