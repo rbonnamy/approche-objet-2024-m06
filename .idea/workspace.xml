@@ -5,21 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Emprunt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/TestPersonne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/essai/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/essai/TestEmprunt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entites/essai/TestOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Camion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Passager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Planeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Siege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/TestAvion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/Vehicule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/TestBanque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/TestOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/CompteTaux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Debit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entites/Facture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestMethodeStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/Emprunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/Emprunt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/TestAdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/essai/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/essai/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/essai/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/essai/TestOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,9 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rbonnamy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:rbonnamy/approche-objet-2024-m06.git&quot;,
+    &quot;accountId&quot;: &quot;1d73b93c-c3bb-47f4-b678-e4d44f23eac8&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mxtUABVSLZ2EjvAkUiaoDk9xll" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,23 +67,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestAdressePostale.executor": "Run",
-    "Application.TestEmprunt.executor": "Run",
-    "Application.TestOperation.executor": "Run",
-    "Application.TestPersonne.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAvion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestEmprunt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMethodeStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOperation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet-2024-m06&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestPersonne">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="entites" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="banque" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="banque.entites" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestOperation">
     <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="entites.TestAdressePostale" />
       <module name="approche-objet-2024-m06" />
@@ -77,12 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmprunt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites.essai.TestEmprunt" />
+    <configuration name="TestAvion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aeroport.TestAvion" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites.essai.*" />
+          <option name="PATTERN" value="aeroport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="banque.TestBanque" />
+      <module name="approche-objet-2024-m06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="banque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMethodeStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.TestMethodeStatic" />
+      <module name="approche-objet-2024-m06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,50 +152,25 @@
       </method>
     </configuration>
     <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites.essai.TestOperation" />
+      <option name="MAIN_CLASS_NAME" value="banque.TestOperation" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites.essai.*" />
+          <option name="PATTERN" value="banque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPersonne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites.TestPersonne" />
-      <module name="approche-objet-2024-m06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entites.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="approche-objet-2024-m06" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="approche-objet-2024-m06" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPersonne" />
-        <item itemvalue="Application.TestAdressePostale" />
         <item itemvalue="Application.TestOperation" />
-        <item itemvalue="Application.TestEmprunt" />
+        <item itemvalue="Application.TestBanque" />
+        <item itemvalue="Application.TestAvion" />
+        <item itemvalue="Application.TestMethodeStatic" />
+        <item itemvalue="Application.TestAdressePostale" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +183,15 @@
       <option name="presentableId" value="Default" />
       <updated>1728030068988</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1728057035885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728057035885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -9,11 +9,15 @@ public class AdressePostale {
     int codePostal;
     String ville;
 
+    // Variable de classe = partagée
+    static int compteur = 0;
+
     public AdressePostale(int numeroRue, String libelleRue, int codePostal, String ville) {
         this.numeroRue = numeroRue;
         this.libelleRue = libelleRue;
         this.codePostal = codePostal;
         this.ville = ville;
+        compteur++;
     }
 
     @Override

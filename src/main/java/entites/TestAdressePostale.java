@@ -6,7 +6,9 @@ public class TestAdressePostale {
 
         AdressePostale a1 = new AdressePostale(15, "rue du Marché", 44000, "Nantes");
         AdressePostale a2 = new AdressePostale(1, "rue des Lilas", 34000, "Montpellier");
+        AdressePostale a3 = new AdressePostale(1, "rue des Lilas", 34000, "Montpellier");
 
-        System.out.println(a1);
+        System.out.println(AdressePostale.compteur);
+
     }
 }
