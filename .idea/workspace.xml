@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP8 corrigé avec classe de service pour le calcul du total">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichiers/Commune.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichiers/TraitementFichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fichiers/TraitementFichierCompact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Boeuf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Dauphin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Koala.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Mammifere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/TestMammifere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/comportements/Carnivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/comportements/Herbivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/comportements/Omnivore.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP15 corrigé">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,20 +99,7 @@
       <recent name="banque.entites" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TraitementFichier">
-    <configuration name="TestListString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestListString" />
-      <module name="approche-objet-2024-m06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TraitementFichierCompact">
     <configuration name="TestTriString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tri.TestTriString" />
       <module name="approche-objet-2024-m06" />
@@ -178,13 +152,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TraitementFichierCompact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fichiers.TraitementFichierCompact" />
+      <module name="approche-objet-2024-m06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fichiers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraitementFichierCompact" />
         <item itemvalue="Application.TraitementFichier" />
         <item itemvalue="Application.TestWriteFichier" />
         <item itemvalue="Application.TestVilles" />
         <item itemvalue="Application.TestTriString" />
-        <item itemvalue="Application.TestListString" />
       </list>
     </recent_temporary>
   </component>
@@ -229,13 +216,22 @@
       <option name="project" value="LOCAL" />
       <updated>1728554435321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP15 corrigé">
+      <option name="closed" value="true" />
+      <created>1728567957123</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728567957124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="TP8 corrigé" />
     <MESSAGE value="TP8 corrigé avec classe de service pour le calcul du total" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP8 corrigé avec classe de service pour le calcul du total" />
+    <MESSAGE value="TP15 corrigé" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP15 corrigé" />
   </component>
 </project>

@@ -20,10 +20,10 @@ public class TraitementFichierCompact {
         // Parcours du contenu du fichier d'origine et constitutation du fichier de sortie
         for (int i=1; i<listeLignes.size(); i++) {
             String[] elements = listeLignes.get(i).split(";");
-            Commune commune = new Commune(elements[6], elements[2], elements[1], Integer.parseInt(elements[9].replaceAll(" ", "")));
+            int popTotale = Integer.parseInt(elements[9].replaceAll(" ", ""));
 
-            if (commune.getPopulation() > 25000) {
-                lignesFichierSortie.add(commune.getNom() + ";" + commune.getCodeDepartement() + ";" + commune.getNomRegion() + ";" + commune.getPopulation());
+            if (popTotale > 25000) {
+                lignesFichierSortie.add(elements[6] + ";" + elements[2] + ";" + elements[1] + ";" + popTotale);
             }
         }
 
