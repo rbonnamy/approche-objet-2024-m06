@@ -11,6 +11,7 @@ public class Credit extends Operation {
         return "CREDIT";
     }
 
+    @Override
     public double calculTotal(double somme){
         return somme+montant;
     }

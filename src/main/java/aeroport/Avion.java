@@ -1,6 +1,6 @@
 package aeroport;
 
-public final class Avion extends Vehicule {
+public class Avion  extends Vehicule implements ObjetVolant {
 
     // variable d'instance
     private String immatriculation;
@@ -9,6 +9,16 @@ public final class Avion extends Vehicule {
     public Avion(String fabricant, String modele, String immatriculation){
         super(fabricant, modele);
         this.immatriculation=immatriculation;
+    }
+
+    @Override
+    public void decoller(){
+
+    }
+
+    @Override
+    public void atterir(){
+
     }
 
     public String toString(){

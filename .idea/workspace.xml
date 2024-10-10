@@ -4,8 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP8 corrigé">
-      <change afterPath="$PROJECT_DIR$/src/main/java/banque/services/OperationServices.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP8 corrigé avec classe de service pour le calcul du total">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aeroport/ObjetVolant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/VIrementInternational.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fichiers/TestFichier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/CreationListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/FusionListe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestListString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestReferenceVsValeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/moyenne/TestMoyenne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theatre/Theatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tri/TestTriInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tri/TestTriString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aeroport/Avion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aeroport/Avion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banque/TestOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/TestOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banque/entites/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Credit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,44 +67,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TestAdressePostale.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAvion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBanque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestEmprunt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMethodeStatic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestOperation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestPersonne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet-2024-m06&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CreationListe.executor": "Run",
+    "Application.FusionListe.executor": "Run",
+    "Application.TEstTEST.executor": "Run",
+    "Application.TestAdressePostale.executor": "Run",
+    "Application.TestArrayList.executor": "Run",
+    "Application.TestAvion.executor": "Run",
+    "Application.TestBanque.executor": "Run",
+    "Application.TestEmprunt.executor": "Run",
+    "Application.TestFichier.executor": "Run",
+    "Application.TestListInt.executor": "Run",
+    "Application.TestListString.executor": "Run",
+    "Application.TestMethodeStatic.executor": "Run",
+    "Application.TestMoyenne.executor": "Run",
+    "Application.TestOperation.executor": "Run",
+    "Application.TestPersonne.executor": "Run",
+    "Application.TestReferenceVsValeur.executor": "Run",
+    "Application.TestTriString.executor": "Run",
+    "Application.TestVilles.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet-2024-m06/src/main/java/tri",
+    "onboarding.tips.debug.path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RichardBONNAMY\IdeaProjects\2024-M06\approche-objet-2024-m06\src\main\java\tri" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="banque" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="listes" />
+      <recent name="theatre" />
       <recent name="banque.entites" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestOperation">
-    <configuration name="TestAdressePostale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entites.TestAdressePostale" />
+  <component name="RunManager" selected="Application.TestFichier">
+    <configuration name="TestFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fichiers.TestFichier" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entites.essai.*" />
+          <option name="PATTERN" value="fichiers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAvion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aeroport.TestAvion" />
+    <configuration name="TestListInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestListInt" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aeroport.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="banque.TestBanque" />
+    <configuration name="TestListString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestListString" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="banque.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMethodeStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.TestMethodeStatic" />
+    <configuration name="TestTriString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tri.TestTriString" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="tri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="banque.TestOperation" />
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestVilles" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="banque.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestOperation" />
-        <item itemvalue="Application.TestBanque" />
-        <item itemvalue="Application.TestAvion" />
-        <item itemvalue="Application.TestMethodeStatic" />
-        <item itemvalue="Application.TestAdressePostale" />
+        <item itemvalue="Application.TestFichier" />
+        <item itemvalue="Application.TestVilles" />
+        <item itemvalue="Application.TestTriString" />
+        <item itemvalue="Application.TestListString" />
+        <item itemvalue="Application.TestListInt" />
       </list>
     </recent_temporary>
   </component>
@@ -178,12 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728377234313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TP8 corrigé avec classe de service pour le calcul du total">
+      <option name="closed" value="true" />
+      <created>1728379953826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728379953827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="TP8 corrigé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP8 corrigé" />
+    <MESSAGE value="TP8 corrigé avec classe de service pour le calcul du total" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP8 corrigé avec classe de service pour le calcul du total" />
   </component>
 </project>

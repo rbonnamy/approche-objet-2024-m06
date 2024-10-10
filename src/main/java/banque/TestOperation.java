@@ -15,6 +15,8 @@ public class TestOperation {
         operations[2]=new Credit("03/10/2024", 178.6);
         operations[3]=new Debit("04/10/2024", 123.9);
 
+        System.out.println(operations[0].getClass().getSimpleName());
+
         double somme = OperationServices.calculTotal(operations);
 
         DecimalFormat formateur = new DecimalFormat("#.00");
