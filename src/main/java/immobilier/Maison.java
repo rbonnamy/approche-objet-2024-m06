@@ -23,7 +23,6 @@ public class Maison {
         for (Piece p : listePieces){
             sup+=p.getSuperficie();
         }
-
         return sup;
     }
 }

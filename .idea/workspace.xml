@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Modification du fichier readme en markdown">
-      <change afterPath="$PROJECT_DIR$/src/main/java/conway/Grille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/Getter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/Profil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/ToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/TestBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Chambre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Cuisine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Salon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/TestMaison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tableau2dim/TestTableau2Dim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fichiers/Commune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fichiers/Commune.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Ajout immobilier">
+      <change beforePath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +61,7 @@
     "Application.TestFichier.executor": "Run",
     "Application.TestListInt.executor": "Run",
     "Application.TestListString.executor": "Run",
+    "Application.TestMaison.executor": "Run",
     "Application.TestMap.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
@@ -273,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728632862091</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout immobilier">
+      <option name="closed" value="true" />
+      <created>1728662420690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728662420691</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,6 +278,7 @@
     <MESSAGE value="TP15 corrigé - modification TraitementFichierCompact" />
     <MESSAGE value="Modification de l'exemple sur les animaux" />
     <MESSAGE value="Modification du fichier readme en markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification du fichier readme en markdown" />
+    <MESSAGE value="Ajout immobilier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout immobilier" />
   </component>
 </project>

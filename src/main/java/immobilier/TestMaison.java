@@ -12,5 +12,8 @@ public class TestMaison {
         double superficie = maMaison.getSuperficie();
         System.out.println(superficie);
 
+        Maison m2 = new Maison();
+
+
     }
 }
