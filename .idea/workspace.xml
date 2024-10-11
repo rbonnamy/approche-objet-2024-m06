@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP15 corrigé - modification TraitementFichierCompact">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Aigle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Oiseau.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Modification du fichier readme en markdown">
+      <change afterPath="$PROJECT_DIR$/src/main/java/conway/Grille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/Getter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/Profil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enumerations/ToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/TestBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Chambre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Cuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/Salon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/immobilier/TestMaison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tableau2dim/TestTableau2Dim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mammifere/Mammifere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mammifere/Mammifere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mammifere/TestMammifere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mammifere/TestAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fichiers/Commune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fichiers/Commune.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -85,7 +95,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,20 +109,20 @@
       <recent name="banque" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="immobilier" />
+      <recent name="enumerations" />
       <recent name="fichiers" />
       <recent name="mammifere" />
       <recent name="listes" />
-      <recent name="theatre" />
-      <recent name="banque.entites" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMap">
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demomap.TestMap" />
+  <component name="RunManager" selected="Application.TestMaison">
+    <configuration name="TestMaison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="immobilier.TestMaison" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demomap.*" />
+          <option name="PATTERN" value="immobilier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listes.TestVilles" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demomap.TestMap" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listes.*" />
+          <option name="PATTERN" value="demomap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMaison" />
         <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.TraitementFichierCompact" />
         <item itemvalue="Application.TraitementFichier" />
         <item itemvalue="Application.TestWriteFichier" />
-        <item itemvalue="Application.TestVilles" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728572200652</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modification de l'exemple sur les animaux">
+      <option name="closed" value="true" />
+      <created>1728632435445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728632435445</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modification du fichier readme en markdown">
+      <option name="closed" value="true" />
+      <created>1728632862091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728632862091</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,6 +282,8 @@
     <MESSAGE value="TP8 corrigé avec classe de service pour le calcul du total" />
     <MESSAGE value="TP15 corrigé" />
     <MESSAGE value="TP15 corrigé - modification TraitementFichierCompact" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP15 corrigé - modification TraitementFichierCompact" />
+    <MESSAGE value="Modification de l'exemple sur les animaux" />
+    <MESSAGE value="Modification du fichier readme en markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification du fichier readme en markdown" />
   </component>
 </project>

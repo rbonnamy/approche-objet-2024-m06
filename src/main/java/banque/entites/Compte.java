@@ -1,6 +1,6 @@
 package banque.entites;
 
-import aeroport.Vehicule;
+import enumerations.Getter;
 
 public class Compte {
 
@@ -17,6 +17,7 @@ public class Compte {
         return numero+" "+solde;
     }
 
+    @Getter
     public String getNumero() {
         return numero;
     }
@@ -25,6 +26,7 @@ public class Compte {
         this.numero = numero;
     }
 
+    @Getter
     public double getSolde() {
         return solde;
     }

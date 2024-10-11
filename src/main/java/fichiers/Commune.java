@@ -1,9 +1,19 @@
 package fichiers;
 
+import enumerations.ToString;
+
 public class Commune {
+
+    @ToString(separateur = "-", upperCase = true)
     private String nom;
+
+    @ToString(separateur = "-", upperCase = true)
     private String codeDepartement;
+
+    @ToString(separateur = "-")
     private String nomRegion;
+
+    @ToString
     private int population;
 
     public Commune(String nom, String codeDepartement, String nomRegion, int population) {
