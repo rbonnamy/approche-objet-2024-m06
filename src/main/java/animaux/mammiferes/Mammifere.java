@@ -1,6 +1,8 @@
-package mammifere;
+package animaux.mammiferes;
 
-public abstract class Mammifere {
+import animaux.Animal;
+
+public abstract class Mammifere extends Animal {
 
     private String nom;
     private String famille;
@@ -19,10 +21,6 @@ public abstract class Mammifere {
     public final void seReproduire(){
         System.out.println("Tous les mammifères, sans exception, ont une reproduction sexuée.");
     }
-
-    public abstract void seNourrir();
-
-    public abstract void seDeplacer();
 
     public String getNom() {
         return nom;

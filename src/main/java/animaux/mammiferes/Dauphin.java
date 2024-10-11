@@ -1,6 +1,6 @@
-package mammifere;
+package animaux.mammiferes;
 
-import mammifere.comportements.Carnivore;
+import animaux.comportements.Carnivore;
 
 public class Dauphin extends Mammifere implements Carnivore {
 

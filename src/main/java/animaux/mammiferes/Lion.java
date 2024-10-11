@@ -1,6 +1,6 @@
-package mammifere;
+package animaux.mammiferes;
 
-import mammifere.comportements.Carnivore;
+import animaux.comportements.Carnivore;
 
 public class Lion extends Mammifere implements Carnivore {
 

@@ -1,6 +1,6 @@
-package mammifere;
+package animaux.mammiferes;
 
-import mammifere.comportements.Herbivore;
+import animaux.comportements.Herbivore;
 
 public class Boeuf extends Mammifere implements Herbivore {
 

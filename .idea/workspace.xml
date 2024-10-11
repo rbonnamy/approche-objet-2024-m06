@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP15 corrigé">
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TP15 corrigé - modification TraitementFichierCompact">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Aigle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mammifere/Oiseau.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mammifere/Mammifere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mammifere/Mammifere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mammifere/TestMammifere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mammifere/TestAnimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "Application.TestFichier.executor": "Run",
     "Application.TestListInt.executor": "Run",
     "Application.TestListString.executor": "Run",
+    "Application.TestMap.executor": "Run",
     "Application.TestMethodeStatic.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
@@ -69,6 +75,7 @@
     "Application.TestTriString.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "Application.TraitementFichier.executor": "Run",
+    "Application.TraitementFichierCompact.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -99,13 +106,13 @@
       <recent name="banque.entites" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TraitementFichierCompact">
-    <configuration name="TestTriString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tri.TestTriString" />
+  <component name="RunManager" selected="Application.TestMap">
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demomap.TestMap" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tri.*" />
+          <option name="PATTERN" value="demomap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.TraitementFichierCompact" />
         <item itemvalue="Application.TraitementFichier" />
         <item itemvalue="Application.TestWriteFichier" />
         <item itemvalue="Application.TestVilles" />
-        <item itemvalue="Application.TestTriString" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +231,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728567957124</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TP15 corrigé - modification TraitementFichierCompact">
+      <option name="closed" value="true" />
+      <created>1728569084299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728569084300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TP15 corrigé - modification TraitementFichierCompact">
+      <option name="closed" value="true" />
+      <created>1728572200651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728572200652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +255,7 @@
     <MESSAGE value="TP8 corrigé" />
     <MESSAGE value="TP8 corrigé avec classe de service pour le calcul du total" />
     <MESSAGE value="TP15 corrigé" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP15 corrigé" />
+    <MESSAGE value="TP15 corrigé - modification TraitementFichierCompact" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP15 corrigé - modification TraitementFichierCompact" />
   </component>
 </project>
