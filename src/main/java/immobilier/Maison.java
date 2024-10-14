@@ -12,6 +12,12 @@ public class Maison {
     // En paramètre de cette méthode je passe une variable
     // de type Piece
     // donc on peut passer une chambre, une cuisine, un salon, etc.
+
+    /**
+     * Cette méthode est dépréciée, merci d'utiliser la méthode blablabla
+     * @param piece
+     */
+    @Deprecated
     public void addPiece(Piece piece){
         this.listePieces.add(piece);
     }

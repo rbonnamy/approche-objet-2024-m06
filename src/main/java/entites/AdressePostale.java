@@ -1,5 +1,7 @@
 package entites;
 
+import listes.Ville;
+
 public class AdressePostale {
 
     // Variable d'instances
@@ -18,6 +20,18 @@ public class AdressePostale {
         this.codePostal = codePostal;
         this.ville = ville;
         compteur++;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof AdressePostale)) {
+            return false;
+        }
+        AdressePostale autre = (AdressePostale) obj;
+        return     this.libelleRue.equals(autre.libelleRue)
+                && this.numeroRue==autre.numeroRue
+                && this.ville.equals(autre.ville)
+                && this.codePostal==autre.codePostal;
     }
 
     @Override

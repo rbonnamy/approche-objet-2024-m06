@@ -9,6 +9,16 @@ public class Ville implements Comparable<Ville> {
         this.nbHabs = nbHabs;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Ville)){
+            return false;
+        }
+        Ville autre = (Ville)obj;
+        return this.nom.equals(autre.nom) && this.nbHabs==autre.nbHabs;
+    }
+
+    @Override
     public int compareTo(Ville autre){
         if (this.nbHabs > autre.getNbHabs()){
             return 1;
