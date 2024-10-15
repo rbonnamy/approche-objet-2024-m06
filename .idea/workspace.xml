@@ -4,8 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="Ajout immobilier">
-      <change beforePath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/immobilier/Maison.java" afterDir="false" />
+    <list default="true" id="cb8b84a5-8fd3-4957-8156-11c187241108" name="Changes" comment="TPs de lundi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoexceptions/AccesBaseDeDonnees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoexceptions/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoexceptions/RecherchePopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoexceptions/exceptions/CodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generiques/TestContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/importstatic/TestImportStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listes/comparators/VilleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TestStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/varargs/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/varargs/TestStackOverflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/varargs/TestVarArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entites/AdressePostale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equals/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equals/TestEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fichiers/TraitementFichierCompact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fichiers/TraitementFichierCompact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generiques/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generiques/TestBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/TestVilles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listes/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listes/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strings/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +71,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Application.CreationListe.executor": "Run",
+    "Application.DemoEquals.executor": "Debug",
     "Application.FusionListe.executor": "Run",
     "Application.TEstTEST.executor": "Run",
     "Application.TestAdressePostale.executor": "Run",
     "Application.TestArrayList.executor": "Run",
     "Application.TestAvion.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestCalendar.executor": "Run",
+    "Application.TestDate.executor": "Run",
+    "Application.TestDates.executor": "Run",
     "Application.TestEmprunt.executor": "Run",
+    "Application.TestEquals.executor": "Run",
     "Application.TestFichier.executor": "Run",
+    "Application.TestIterator.executor": "Run",
     "Application.TestListInt.executor": "Run",
     "Application.TestListString.executor": "Run",
     "Application.TestMaison.executor": "Run",
@@ -68,7 +96,11 @@
     "Application.TestOperation.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestReferenceVsValeur.executor": "Run",
+    "Application.TestStackOverflow.executor": "Run",
+    "Application.TestString.executor": "Run",
+    "Application.TestStringBuilder.executor": "Run",
     "Application.TestTriString.executor": "Run",
+    "Application.TestVarArgs.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "Application.TraitementFichier.executor": "Run",
     "Application.TraitementFichierCompact.executor": "Run",
@@ -76,7 +108,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet-2024-m06/src/main/java/tri",
+    "last_opened_file_path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet-2024-m06/src/main/java/exceptions",
     "onboarding.tips.debug.path": "C:/Users/RichardBONNAMY/IdeaProjects/2024-M06/approche-objet/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -89,6 +121,7 @@
       <recent name="entites" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RichardBONNAMY\IdeaProjects\2024-M06\approche-objet-2024-m06\src\main\java\exceptions" />
       <recent name="C:\Users\RichardBONNAMY\IdeaProjects\2024-M06\approche-objet-2024-m06\src\main\java\tri" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -102,13 +135,13 @@
       <recent name="listes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMaison">
-    <configuration name="TestMaison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="immobilier.TestMaison" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demoexceptions.Application" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="immobilier.*" />
+          <option name="PATTERN" value="demoexceptions.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demomap.TestMap" />
+    <configuration name="TestStackOverflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.TestStackOverflow" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demomap.*" />
+          <option name="PATTERN" value="varargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWriteFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichiers.TestWriteFichier" />
+    <configuration name="TestStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.TestStringBuilder" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichiers.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraitementFichier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichiers.TraitementFichier" />
+    <configuration name="TestVarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.TestVarArgs" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichiers.*" />
+          <option name="PATTERN" value="varargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraitementFichierCompact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fichiers.TraitementFichierCompact" />
+    <configuration name="TestVilles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listes.TestVilles" />
       <module name="approche-objet-2024-m06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fichiers.*" />
+          <option name="PATTERN" value="listes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMaison" />
-        <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.TraitementFichierCompact" />
-        <item itemvalue="Application.TraitementFichier" />
-        <item itemvalue="Application.TestWriteFichier" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.TestStackOverflow" />
+        <item itemvalue="Application.TestVarArgs" />
+        <item itemvalue="Application.TestStringBuilder" />
+        <item itemvalue="Application.TestVilles" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728662420691</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ajout immobilier">
+      <option name="closed" value="true" />
+      <created>1728662953069</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728662953069</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TPs de lundi">
+      <option name="closed" value="true" />
+      <created>1728918277968</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728918277970</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +328,8 @@
     <MESSAGE value="Modification de l'exemple sur les animaux" />
     <MESSAGE value="Modification du fichier readme en markdown" />
     <MESSAGE value="Ajout immobilier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout immobilier" />
+    <MESSAGE value="quelques ajouts" />
+    <MESSAGE value="TPs de lundi" />
+    <option name="LAST_COMMIT_MESSAGE" value="TPs de lundi" />
   </component>
 </project>
